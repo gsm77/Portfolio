@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Greeshma S Mohan</title>
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation-->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      id="navigation"
+    >
+      <div class="container px-4">
+        <a href="#home"
+          ><img
+            src="assets/coin_10_front.png"
+            alt="logo"
+            style="width: 45px"
+            class="d-inline-block align-middle mr-2"
+        /></a>
+
+        <!-- <img
+
+          src="assets/coin_10_front.png"
+          width="45"
+          alt="logo"
+          
+        /> -->
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav nav-pills ms-auto">
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#currency">Currency</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#cards">Cards</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#poster">Poster</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      class="px-3"
+      data-bs-spy="scroll"
+      data-bs-target="#navigation"
+      data-bs-offset="0"
+      tabindex="0"
+    >
+      <!-- Headline section -->
+      <section id="home">
+        <!-- Empty section for image headline -->
+      </section>
+
+      <!-- About section-->
+      <section id="about">
+        <div class="container px-4">
+          <div class="header">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="pt-4">About</h2>
+                <p class="lead">
+                  The Forth collective is a part of the Joint Oceanic Nations
+                  <br />
+                  that covers the stretches of North sea and Edinburgh.
+                  <br />The people of the North Collective are so proud and
+                  <br />
+                  fond of their culture that they have preserved <br />the
+                  heritage and ideologies into various aspects <br />
+                  of their lives like the clothing, currencies etc.. <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Currency section-->
+      <section id="currency">
+        <div class="container px-4">
+          <!-- Currency header -->
+          <div class="header">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="pt-4">Currency</h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coins sub-header -->
+          <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+              <h4 class="pt-2">Coins</h4>
+              <p class="lead">
+                Coins of cred values 5 and 10 exists.
+                <br />
+                The coins represents the moon and the sun respectively <br />
+                The half and whole concept of coins were inspired by
+                <br />
+                the viking system of money where silver was cut into
+                <br />fragments to produce coins of lesser value.
+              </p>
+            </div>
+          </div>
+
+          <!-- hover code from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card -->
+          <!-- click code from: https://jsfiddle.net/f5yn063s/ -->
+
+          <!-- Coins images -->
+          <div class="images">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="row">
+                  <div class="col">
+                    <div class="flip-image" style="height: 265px">
+                      <div class="flip-image-inner">
+                        <div class="flip-image-front">
+                          <img
+                            src="assets/coin_10_front.png"
+                            style="width: 65%"
+                            alt="coin 10 front"
+                          />
+                        </div>
+                        <div class="flip-image-back">
+                          <img
+                            src="assets/coin_10_back.png"
+                            style="width: 65%"
+                            alt="coin 10 back"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="flip-image" style="height: 265px">
+                      <div class="flip-image-inner">
+                        <div class="flip-image-front">
+                          <img
+                            src="assets/coin_5_front.png"
+                            style="width: 65%"
+                            alt="coin 5 front"
+                          />
+                        </div>
+                        <div class="flip-image-back">
+                          <img
+                            src="assets/coin_5_back.png"
+                            style="width: 65%"
+                            alt="coin 5 back"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notes sub-header -->
+          <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+              <h4>Bank notes</h4>
+              <p class="lead">
+                Notes of cred values 100 and 500 exists.
+                <br />
+                Both the notes follow a particular dominant <br />
+                colour temperature. The 100 creds is inspired by the North sea
+                <br />
+                whereas the 500 cred's colour palette is inspired by the <br />
+                infamous flora of the region, the thistle plant. <br />
+                Both the notes have celtic influences on their appearance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Notes images -->
+          <div class="images">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="flip-image" style="height: 300px">
+                  <div class="flip-image-inner">
+                    <div class="flip-image-front">
+                      <img
+                        src="assets/note_500_front.png"
+                        style="width: 65%"
+                        alt="note 500 front"
+                      />
+                    </div>
+                    <div class="flip-image-back">
+                      <img
+                        src="assets/note_500_back.png"
+                        style="width: 65%"
+                        alt="note 500 front"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="flip-image" style="height: 300px">
+                  <div class="flip-image-inner">
+                    <div class="flip-image-front">
+                      <img
+                        src="assets/banknote_100_front.png"
+                        style="width: 65%"
+                        alt="banknote 100 front"
+                      />
+                    </div>
+                    <div class="flip-image-back">
+                      <img
+                        src="assets/banknote_100_back.png"
+                        style="width: 65%"
+                        alt="banknote 100 front"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards section-->
+      <section id="cards">
+        <div class="container px-4">
+          <!-- Cards header -->
+          <div class="header">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <h2>Cards</h2>
+                <h4>Bank card</h4>
+                <p class="lead">
+                  The bank cards are made of bio luminnescent material
+                  <br />
+                  that makes them glow in the darkest and deepest areas of the
+                  sea.
+                  <br />
+                  This makes them easy to be found and suitable for the
+                  environment.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards images -->
+          <div class="images rotate">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="row clearfix">
+                  <div class="col rotate-right-15">
+                    <div class="flip-image" style="height: 350px">
+                      <div class="flip-image-inner">
+                        <div class="flip-image-front">
+                          <img
+                            src="assets/bankcard_front.png"
+                            style="width: 65%"
+                            alt="bankcard front"
+                          />
+                        </div>
+                        <div class="flip-image-back">
+                          <img
+                            src="assets/bankcard_back.png"
+                            style="width: 65%"
+                            alt="bankcard front"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col"></div>
+                </div>
+                <div class="row clearfix">
+                  <div class="col"></div>
+                  <div class="col rotate-left-15">
+                    <div class="flip-image" style="height: 350px">
+                      <div class="flip-image-inner">
+                        <div class="flip-image-front">
+                          <img
+                            src="assets/lit_bankcard_front.png"
+                            style="width: 65%"
+                            alt="lit bankcard front"
+                          />
+                        </div>
+                        <div class="flip-image-back">
+                          <img
+                            src="assets/lit_bankcard_back.png"
+                            style="width: 65%"
+                            alt="lit bankcard front"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card sub-header -->
+          <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8">
+              <h4>C-MIST card</h4>
+              <p class="lead">
+                The C-MIST cards are used for travel purposes within <br />
+                The Complex-Maglev International Subsea Transport network
+                <br />
+                The card has a biometric sensor behind in the shape of a dome
+                <br />
+                Like the bank card, the C-MIST card also illuminates in the
+                dark.
+                <br />
+              </p>
+            </div>
+          </div>
+
+          <div class="images rotate">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="row">
+                  <div class="col rotate-left-7 float-image-left">
+                    <img
+                      src="assets/Cmist back.png"
+                      alt="cmist"
+                      style="width: 65%"
+                    />
+                  </div>
+                  <div class="col"></div>
+                </div>
+                <div class="row my-4">
+                  <div class="col"></div>
+                  <div class="col rotate-right-7 float-image-right">
+                    <img
+                      src="assets/cmist_lit.png"
+                      alt="cmist lit"
+                      style="width: 65%"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="poster">
+        <div class="container px-4">
+          <!-- Poster header -->
+          <div class="header">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <h2>Poster</h2>
+                <p class="lead">
+                  Uber along with NASA offers cosmic travel for couples
+                  <br />
+                  who are interested in an 'out of the world' experience!
+                  <br />
+                  Sign up for Uber Space.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Poster images -->
+          <div class="images">
+            <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="row text-center">
+                  <div class="col">
+                    <img
+                      src="assets/poster.gif"
+                      alt="poster"
+                      style="width: 60%"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
